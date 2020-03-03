@@ -236,7 +236,7 @@ nav {
    }
 
    header {
-     margin-right: -10px;
+     margin-right: -20px;
       position: static;
       padding: 0%;
    }
@@ -248,7 +248,7 @@ nav {
 
    nav p {
       padding: 10px;
-      margin-right: -10px;
+      margin-right: -20px;
       margin-left: -10px;
    }
 
@@ -322,13 +322,18 @@ nav {
    }
 
    .pmiddle {
-      height: 2000px;
+      height: 2150px;
       width: 85%;
       
    }
    
+.column img {
+   width: 300px;
+}
+
 .gallery1 {
    display: block;
+   
 }
 
 .gallery2 {
