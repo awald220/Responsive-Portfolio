@@ -60,6 +60,7 @@ nav {
      font-size: 40px;
      font-family: Georgia, 'Times New Roman', Times, serif;
      border-bottom: 1px solid #666666;
+     padding: 10px;
  }
  
  
@@ -114,8 +115,8 @@ nav {
 
  .pmiddle {
     background-color: #ffffff;
-    width: 960px; 
-    height: 1300px;
+    width: 100%; 
+    height: 1200px;
     margin: 0 auto;
     padding: 20px;
     margin-top: 50px;
@@ -125,7 +126,7 @@ nav {
 
  .gallery1 {
     display: flex;
-    flex-directi;
+    flex-direction: ;
  }
 
  .gallery2 {
@@ -194,18 +195,32 @@ nav {
       }
       
       header {
-         
+         width: auto;
          position: static;
+      }
+
+      nav p {
+         margin-right: -10px;
+         margin-left: 75px;
+         padding: 0px;
       }
     
       .middle {
          margin-bottom: 475px;
       }
 
+      .pmiddle {
+         width: 70%;
+         margin-left: 50px;
+   }
+
       footer {
          position: fixed;
-         margin-bottom: -20px;
-      }
+         bottom: 0px;
+         height: 50px;
+         padding: 0px;
+         
+         }
  }
 
  @media screen and (max-width: 768px) {
@@ -218,6 +233,11 @@ nav {
       position: static;
       padding: 0%;
    }
+   
+   header h1 {
+      padding-right: 20px;
+      margin-left: 30px;
+   }
 
    nav p {
       padding: 10px;
@@ -227,9 +247,16 @@ nav {
 
    .middle {
       width: 90%;
-      margin: 4% -12% 20% 3%;
+      margin: 4% -10% 20% 0%;
       display: block;
    }
+
+   .pmiddle {
+      width: 90%;
+      margin-left: 25px;
+   }
+
+  
 
    footer {
       position: fixed;
@@ -247,7 +274,7 @@ nav {
    header {
       display: block;
       position: static;
-      padding-right: 10%;
+      padding-right: -20%;
    }
 
    header h1 {
@@ -267,8 +294,29 @@ nav {
       display: block;
    }
 
-   footer {
-      
-      margin-bottom: 0px;
+   .pmiddle {
+      height: 2000px;
+      width: 85%;
+      margin: 4% -12% 15% 3%;
    }
+   
+.gallery1 {
+   display: block;
+}
+
+.gallery2 {
+   display: block;
+}
+
+.gallery3 {
+   display: block;
+}
+   
+
+footer {
+position: fixed;
+bottom: 0px;
+height: 50px;
+
+}
 }
